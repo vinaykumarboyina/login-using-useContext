@@ -1,0 +1,104 @@
+/* body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+} */
+.heading{
+  text-align: center;
+}
+/* input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+} */
+.container {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input{
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.label{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.btn-field{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button {
+  background: #0563b4 !important;
+  border:0px;
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffff;
+}
+.err-msg{
+  color:red
+}
+.tag{
+  color: #0563b4;
+}
+.home-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.user-details-card{
+  /* width: 1000px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logout-btn{
+  background: #0563b4 !important;
+  border:0px;
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffff;
+
+}
+.not-found-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
